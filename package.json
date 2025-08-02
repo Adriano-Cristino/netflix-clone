@@ -1,0 +1,37 @@
+{
+  "name": "netflix-clone",
+  "version": "1.0.0",
+  "description": "Netflix Clone - Um clone da interface do Netflix com carrossel de filmes",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "note": "As dependências são gerenciadas manualmente via arquivos locais",
+    "jquery": "^3.7.1",
+    "owl.carousel": "^2.3.4"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "netflix",
+    "clone",
+    "html",
+    "css",
+    "javascript",
+    "carousel",
+    "responsive",
+    "frontend"
+  ],
+  "author": "Adriano Cristino",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adriano-Cristino/netflix-clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adriano-Cristino/netflix-clone/issues"
+  },
+  "homepage": "https://github.com/Adriano-Cristino/netflix-clone#readme"
+}
