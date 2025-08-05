@@ -1,0 +1,39 @@
+{
+  "name": "netflix-clone",
+  "version": "1.0.0",
+  "description": "Netflix clone built with HTML, CSS, JavaScript, jQuery and Owl Carousel",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "echo \"No test suite configured yet\"",
+    "update-deps": "npm update && npm run copy-deps",
+    "copy-deps": "cp node_modules/jquery/dist/jquery.min.js js/owl/ && cp node_modules/owl.carousel/dist/owl.carousel.min.js js/owl/ && cp node_modules/owl.carousel/dist/assets/*.css style/owl/",
+    "audit": "npm audit",
+    "postinstall": "npm run copy-deps"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "owl.carousel": "^2.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adriano-Cristino/netflix-clone.git"
+  },
+  "keywords": [
+    "netflix",
+    "clone",
+    "html",
+    "css",
+    "javascript",
+    "jquery",
+    "owl-carousel",
+    "responsive"
+  ],
+  "author": "Adriano Cristino",
+  "license": "MIT",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
